@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: #fbc531;
+  color: #2f3640;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_marmite {
+  text-align: center;
+}
+
+.header_marmite a {
+  color: #2f3640;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.header_marmite h1, .header_marmite h2 {
+  margin: 0;
+}
+
+.header_marmite span {
+  line-height: 1em;
+  display: block;
+}
+
+.header_marmite span:first-child {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.header_marmite span:last-child {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.header_marmite h2 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 20px auto 80px;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #2f3640;
+  color: #f5f6fa;
+  margin-top: auto;
+}
+/* ============================================================================================================================================================================================================================================================================================================ */
